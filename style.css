@@ -1,0 +1,120 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  font-family: arial;
+}
+nav {
+  display: flex;
+  justify-content: space-between;
+  padding: 30px;
+  color: grey;
+}
+
+.selected {
+  color: #00ccb1;
+}
+
+ul {
+  display: flex;
+  justify-content: space-around;
+}
+li {
+  margin-left: 20px;
+  list-style: none;
+}
+li:hove {
+  color: #00ccb1;
+}
+
+.logo-docplanner {
+  width: 268px;
+  height: 33px;
+}
+.intro {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+}
+.parag {
+  display: flex;
+  align-items: flex-start;
+  justify-content: space-between;
+  margin-top: 29px;
+  margin-bottom: 30px;
+  color: grey;
+}
+.parag p {
+  margin-right: 10px;
+  text-align: left;
+}
+.specs {
+  display: flex;
+}
+
+.spec {
+  margin: 10px;
+  background: #00ccb1;
+  border-radius: 10px;
+  padding: 2em 2em 0;
+  overflow: hidden;
+  height: 345px;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+  transition: all 0.2s ease 0s;
+}
+.spec p {
+  font-size: 1.2em;
+  font-weight: 300;
+  line-height: 1.2;
+  margin: 0;
+  color: #fff;
+}
+.spec h3 {
+  font-size: 1.625em;
+  font-weight: 400;
+  color: #fff;
+  margin: 0.3em 0;
+}
+.container {
+  width: 80%;
+  margin: 0 auto;
+}
+select {
+  background: none;
+  border: 0;
+  color: #fff;
+  letter-spacing: 0.04em;
+  font-size: 18px;
+  padding: 20px;
+  margin-bottom: 30px;
+  border-bottom: 2px solid white;
+}
+.companies {
+  display: flex;
+  padding: 20px;
+}
+
+.companies h2 {
+  width: 40%;
+  font-weight: 200;
+  color: #00b39b;
+}
+
+.Group {
+  width: 100%;
+  display: flex;
+  flex-flow: wrap;
+  align-items: flex-end;
+  justify-content: flex-start;
+  height: 79px;
+}
+
+.Group li {
+  filter: grayscale(1);
+}
+.Group li:hover {
+  filter: grayscale(0);
+}
